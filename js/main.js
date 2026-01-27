@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sliderImage && nextBtn && prevBtn) {
 
         const images = [
-            "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1504151932400-72d4384f04b3?auto=format&fit=crop&w=1600&q=80"
+            "../images/halloween5.jpg",
+            "../images/halloween6.jpg",
+            "../images/halloween7.webp"
         ];
 
         let currentIndex = 0;
