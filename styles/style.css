@@ -436,6 +436,7 @@ body {
 }
 
 .section8-block {
+    align-items: center;
     gap: 68px;
 }
 
@@ -548,15 +549,31 @@ body {
     font-size: 16px;
 }
 
+@media (max-width: 1199px) {
+    .section8-block {
+        flex-direction: column;
+        align-items: normal;
+        gap: 68px;
+    }
+}
+
 @media (max-width: 991px) {
     .section-1-block {
         flex-direction: column;
         gap: 32px;
+        align-items: normal;
     }
 
     .section-1-img {
-        max-width: 100%;
-        padding: 16px;
+        max-width: 420px;
+        padding: 26px;
+    }
+
+    .section-1-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
     }
 
     .sec1-title {
@@ -564,13 +581,35 @@ body {
         line-height: 1.2;
     }
 
+    .sec1-btn {
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
     .section-2-block {
         flex-wrap: wrap;
         gap: 70px;
     }
 
+    .section-2-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .section-2-untertitle {
+        font-size: 26px;
+    }
+
+    .section-2-info {
+        font-size: 20px;
+    }
+
+    .sec2-btn {
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
     .sec2-img {
         order: 2;
+        max-width: 420px;
     }
 
     .sec3-infos {
@@ -586,9 +625,63 @@ body {
         line-height: 1.2;
     }
 
+    .sec3-info-number {
+        font-size: 24px;
+    }
+
+    .sec3-btn {
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
     .slider-image-wrapper {
         aspect-ratio: 4 / 3;
         border-radius: 30px;
+    }
+
+    .sec5-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .sec5-info {
+        font-size: 26px;
+    }
+
+    .sec5-btn {
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
+    .sec6-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .sec8-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .sec8-info {
+        font-size: 26px;
+    }
+
+    .sec8-descr {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .sec8-right-block {
+        padding: 26px;
+        width: 100%;
+        max-width: 420px;
+        aspect-ratio: 420 / 480;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec8-btn {
+        font-size: clamp(16px, 3vw, 20px);
     }
 
     .google-map {
@@ -597,10 +690,166 @@ body {
 }
 
 @media (max-width: 576px) {
+    .section-1 {
+        padding: 60px 20px;
+    }
+
+    .sec1-title {
+        font-size: 28px;
+    }
+
+    .sec1-info:nth-of-type(1) {
+        margin-top: 24px;
+    }
+
+    .sec1-btn {
+        font-size: clamp(16px, 3vw, 16px);
+        margin-top: 24px;
+        max-width: 320px;
+    }
+
+    .sec1-question {
+        margin-top: 30px;
+    }
+
+    .section-2 {
+        padding: 60px 20px;
+    }
+
+    .section-2-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .section-2-untertitle {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+
+    .section-2-info {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .sec2-btn {
+        font-size: clamp(16px, 3vw, 16px);
+        margin-top: 24px;
+    }
+
+    .section-2-block {
+        gap: 42px;
+    }
+
+    .section-3 {
+        padding: 60px 20px;
+    }
+
+    .sec3-title {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+
+    .sec3-info-txt {
+        gap: 20px;
+    }
+
+    .sec3-info-txt-title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .sec3-info-number {
+        font-size: 20px;
+        width: 42px;
+        height: 42px;
+        margin-top: -10px;
+    }
+
+    .sec3-info-item {
+        gap: 20px;
+    }
+
+    .sec3-btn {
+        max-width: 320px;
+        margin-top: 48px;
+    }
+
     .slider-image-wrapper {
         aspect-ratio: 3 / 4;
         border-radius: 20px;
     }
+
+    .section-4 {
+        padding: 60px 80px;
+    }
+
+    .section-5 {
+        padding: 60px 20px;
+    }
+
+    .sec5-title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 28px;
+    }
+
+    .sec5-info {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+
+    .sec5-btn {
+        max-width: 240px;
+    }
+
+    .sec6-title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .section-7 {
+        padding: 60px 20px;
+    }
+
+    .video {
+        height: 400px;
+    }
+
+    .section-8 {
+        padding: 60px 20px;
+        background-color: var(--second-hintergrund-color);
+    }
+
+    .sec8-title {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 24px;
+    }
+
+    .sec8-info {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .sec8-descr {
+        font-size: 16px;
+    }
+
+    .sec8-btn {
+        font-size: clamp(16px, 3vw, 20px);
+        margin-top: 24px;
+        max-width: 260px;
+    }
+
+    .section8-block {
+        gap: 40px;
+    }
+
+    .legal-privacy {
+        flex-wrap: wrap;
+        margin-top: 4rem !important;
+    }
+
 }
 
 
