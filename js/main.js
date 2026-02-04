@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sliderImage && nextBtn && prevBtn) {
 
         const images = [
-            "../images/halloween5.jpg",
-            "../images/halloween6.jpg",
-            "../images/halloween7.webp"
+            "../images/eye-photo4.jpg",
+            "../images/eye-photo5.jpg",
+            "../images/eye-photo6.png"
         ];
 
         let currentIndex = 0;
