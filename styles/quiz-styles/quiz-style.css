@@ -53,26 +53,33 @@
     width: 100%;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    border-radius: 8px;
     display: block;
 }
 
-
 .option button {
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 27px;
-    border: 1px solid #000;
+    position: relative;
+    border: none;
     background-color: transparent;
     width: 100%;
-    padding: 20px;
-    margin-top: 14px;
-    transition: all 0.25s ease;
+    padding: 20px 0px;
+    text-align: left;
+    font-size: 22px;
+    transition: 0.3s ease-in-out;
 }
 
-.option:hover button {
+.option button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 50%;
+    height: 1px;
     background-color: #000;
-    color: #fff;
+}
+
+
+.option:hover button {
+    color: #4a4a4a;
 }
 
 .option button:focus-visible {
@@ -131,11 +138,11 @@
 
 .answer-option button {
     font-weight: 500;
+    border: none;
     font-size: 22px;
     line-height: 27px;
     background-color: var(--button-color);
     width: 100%;
-    border-radius: 15px;
     max-width: 400px;
     padding: 10px 40px;
     margin-top: 14px;
