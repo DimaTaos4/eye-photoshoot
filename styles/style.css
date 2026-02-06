@@ -573,21 +573,387 @@ body {
 }
 
 @media (max-width:991px) {
+    .sec2-right-btn {
+        padding: 14px 24px;
+        font-weight: 500;
+        margin-top: 32px;
+    }
+
+    .sec2-right-info-small {
+        margin-top: 32px;
+    }
+
+
     .google-map {
         max-height: 400px;
+    }
+
+    .sec9-contents {
+        gap: 105px;
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 768px) {
+    .section-1 {
+        padding: 50px 20px;
+    }
+
     .sec1-image {
         max-width: 100%;
         aspect-ratio: 16 / 9;
+    }
+
+    .section-2 {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .sec2-content {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .sec2-left-title {
+        font-size: 20px;
+        margin-bottom: 38px;
+    }
+
+    .line {
+        border-top: 1.5px solid #000;
+        margin: 46px 0;
+    }
+
+    .sec2-left-info {
+        font-size: 20px;
+    }
+
+    .sec2-left-text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .sec2-right-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+
+    .sec2-right-text {
+        font-size: 20px;
+    }
+
+    .sec2-right-btn {
+        margin-top: 26px;
+        font-size: clamp(16px, 3vw, 20px);
+        max-width: 300px;
+    }
+
+    .sec2-right-info-small {
+        font-size: 20px;
+        margin-top: 44px;
+    }
+
+    .section-3 {
+        padding: 50px 20px;
+        background-color: var(--second-hintergrund-color);
+    }
+
+    .sec3-untertitle {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 42px;
+    }
+
+    .sec3-info {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .sec3-info2 {
+        font-size: 20px;
+        margin-top: 34px;
+    }
+
+    .sec3-hinweis {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .sec4-title {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 40px;
+    }
+
+    .sec4-btn {
+        max-width: 300px;
+        font-weight: 500;
+        font-size: clamp(16px, 3vw, 20px);
+        margin-top: 40px;
+    }
+
+    .sec5-title {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 44px;
+    }
+
+    .item-tilte {
+        font-size: 22px;
+    }
+
+    .section-4 {
+        padding: 50px 80px;
+    }
+
+    .section-5 {
+        padding: 50px 20px;
+    }
+
+    .sec5-item {
+        gap: 4px;
+    }
+
+    .item-discrip {
+        font-size: 18px;
+    }
+
+    .sec5-text-items {
+        width: 100%;
+        flex-direction: column;
+        margin-left: auto;
+        gap: 20px;
+    }
+
+    .sec5-btn {
+        max-width: 340px;
+        font-size: clamp(16px, 3vw, 20px);
+        margin: 14px 0 0 0;
+    }
+
+    .sec5-img {
+        max-width: 1220px;
+        aspect-ratio: 1220 / 587;
+        margin: 60px auto 0;
+    }
+
+    .sec6-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .section-8 {
+        padding: 50px 20px;
+    }
+
+    .section8-title {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 40px;
+    }
+
+    .sec8-btn {
+        max-width: 276px;
+        padding: 14px 28px;
+        font-size: clamp(16px, 3vw, 20px);
+        margin: 40px 0 0 0;
+    }
+
+    .section-9 {
+        padding: 50px 20px;
+    }
+
+    .sec9-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .section9-line {
+        margin: 36px 0;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .sec9-text p {
+        font-size: 18px;
+    }
+
+    .sec9-contents {
+        gap: 40px;
+    }
+
+    .sec9-img {
+        max-width: 400px;
+        aspect-ratio: 400 / 520;
     }
 }
 
 
 
+
 @media (max-width:528px) {
+    .sec1-image {
+        margin-top: 40px;
+    }
+
+    .sec2-left-text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .sec2-left-info {
+        font-size: 18px;
+    }
+
+    .sec2-content {
+        gap: 12px;
+    }
+
+    .sec2-right-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sec2-right-text {
+        font-size: 18px;
+    }
+
+    .sec2-right-info-bold {
+        margin: 18px 0;
+    }
+
+    .sec2-right-btn {
+        margin-top: 18px;
+        font-size: clamp(16px, 3vw, 20px);
+        max-width: 260px;
+    }
+
+    .sec2-right-info-small {
+        font-size: 18px;
+        margin-top: 34px;
+    }
+
+    .sec3-untertitle {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+
+    .sec3-info {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 24px;
+    }
+
+    .sec3-info2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .sec3-hinweis {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    .sec4-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 38px;
+    }
+
+    .sec4-btn {
+        max-width: 240px;
+        font-size: clamp(16px, 3vw, 20px);
+        margin-top: 22px;
+    }
+
+    .sec5-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .item-tilte {
+        font-size: 20px;
+    }
+
+    .item-discrip {
+        font-size: 16px;
+    }
+
+
+
+    .sec5-btn {
+        max-width: 280px;
+        font-size: clamp(16px, 3vw, 20px);
+        margin: 1px 0 0 0;
+    }
+
+    .sec6-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .section8-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .sec8-card img {
+        width: 82%;
+        height: 240px;
+        object-fit: cover;
+        margin-bottom: 24px;
+        transition: transform 0.4s ease;
+    }
+
+    .sec8-card h5 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .sec8-card p {
+        font-size: 16px;
+    }
+
+    .sec8-btn {
+        max-width: 220px;
+        font-size: clamp(16px, 3vw, 20px);
+        margin: 20px 0 0 0;
+    }
+
+    .sec9-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .sec9-text p {
+        font-size: 16px;
+    }
+
+    .sec9-img {
+        max-width: 300px;
+        aspect-ratio: 300 / 400;
+    }
+
+    .sec2-left-image {
+        max-width: 180px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .line {
+        border-top: 1px solid #000;
+        margin: 40px 0;
+    }
+
+    .legal-privacy {
+        flex-wrap: wrap;
+        margin-top: 4rem !important;
+    }
+
     .legal-privacy a:not(:last-child)::after {
         display: none;
     }
